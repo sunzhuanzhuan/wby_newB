@@ -1,0 +1,43 @@
+.main-tab-container {
+  .container {
+    padding: 10px;
+    font-size: 14px;
+    .tags {
+      position: absolute;
+      right: -1px;
+      top: -1px;
+      display: block;
+      padding: 2px 8px;
+      font-size: 12px;
+      color: #fff;
+      background: #333;
+      border-radius: 0 0 0 3px;
+      border: 1px solid rgba(0, 0, 0, .05);
+      user-select: none;
+      &.default {
+        background: #40a9ff;
+      }
+    }
+    .items {
+      padding: 10px;
+      word-break: break-all;
+    }
+    .baseinfo-items {
+      ;
+      padding: 10px 0;
+    }
+    .contactinfo-items {
+      position: relative;
+      padding: 10px;
+      border: 1px dashed #dfdfdf;
+      border-radius: 3px;
+      margin-bottom: 8px;
+      .items {
+        padding: 6px 0;
+      }
+      &:hover {
+        background-color: #f8f8f8;
+      }
+    }
+  }
+}

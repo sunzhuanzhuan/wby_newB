@@ -1,0 +1,35 @@
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.appeal-head > div, .appeal-items > div{
+    border: 1px solid #e8e8e8;
+    margin-top: -1px;
+    margin-left: -1px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+.appeal-head > div {
+    text-align: left;
+    background: #fafafa;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 36px;
+}
+.appeal-items .ant-form-item-with-help{
+    margin-bottom: 0;
+}
+
+.appeal-item {
+    width: 100%;
+}
+.record-item .ant-form-item{
+    display:flex;
+    display: -webkit-box;
+    align-items:flex-start;
+    flex-direction:row;
+}

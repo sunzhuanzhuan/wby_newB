@@ -1,0 +1,10 @@
+{
+	"code": 200,
+	"data": {
+		"id": 3,
+		"show_name": "名称1",
+		"class_name": "name1",
+		"description": "这是一个描述"
+	},
+	"msg": ""
+}

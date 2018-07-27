@@ -1,0 +1,260 @@
+@color-primary : #1DA57A;
+.font(@size, @color) {
+    font-family: "微软雅黑";
+    font-size: @size;
+    color: @color;
+}
+
+.form_container {
+    border: 1px solid @color-primary;
+    border-radius: 6px;
+    padding: 10px;
+    legend {
+        color: @color-primary;
+        background-color: #fff;
+        width: auto;
+        padding: 0 10px;
+        margin-bottom: 0;
+    }
+}
+
+.margin-top-md {
+    margin-top: 15px;
+}
+
+.ant-advanced-search-form {
+    padding: 24px;
+    background: #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+}
+
+.ant-advanced-search-form .ant-form-item {
+    display: flex;
+}
+
+.ant-advanced-search-form .ant-form-item-control-wrapper {
+    flex: 1;
+}
+
+//ReservationModal框样式
+.ReservationModal_title {
+    .font(18px, #000);
+    font-weight: 700;
+}
+.appeal-upload {
+    //upload class
+    .avatar-uploader>.ant-upload.ant-upload-select-picture-card {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .avatar-uploader>.ant-upload-list-picture-card .ant-upload-list-item {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        margin-bottom: 10px;
+        box-sizing: content-box;
+    }
+
+    .ant-upload-list-picture .ant-upload-list-item,
+    .ant-upload-list-picture-card .ant-upload-list-item {
+        padding: 2px !important;
+        width: 50px;
+        height: 50px;
+    }
+    .upload-img{
+        .ant-upload-list-picture .ant-upload-list-item,
+        .ant-upload-list-picture-card .ant-upload-list-item {
+            padding: 0;
+            width: 102px;
+            height: 102px;
+        }
+    }
+    .avatar-uploader>.ant-upload-list-picture-card .ant-upload-list-item {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.shotImg .ant-form-explain {
+    margin-top: 20px;
+}
+
+//弹框样式
+.reservationAllModal {
+    overflow: auto;
+    .ant-modal-header{
+        background-color: #fff;
+    }
+    .ant-modal {
+        top: 0;
+        padding-bottom:0px;
+    }
+    .ant-modal-close{
+        z-index: 11;position: fixed;right:10px;
+    }
+    .ant-modal-header{
+        position: fixed;z-index: 10;width: 100%;
+    }
+    .ant-modal-body {
+        padding-top: 56px;
+        box-sizing: border-box;
+        min-height: 100vh;
+    }
+}
+.reservationModal{
+    .ant-modal-body {
+    max-height: 470px;overflow: auto;
+    }
+}
+li .label {
+    display: block;
+}
+
+.multipleSelect {
+    min-width: 220px;
+    max-width: 360px;
+}
+
+.ant-form-item-children>div {
+    //float: left;
+}
+
+.upload_tips {
+    width: 50px;
+    text-align: center;
+}
+
+//联动title
+.firstTitle {
+    text-align: center;
+}
+
+.thumbnail_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    >li {
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+}
+
+.thumbnail_img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    box-sizing: content-box;
+    padding: 2px;
+    >a {
+        display: block;
+    }
+    >a>img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/*清除浮动*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    /*IE/7/6*/
+}
+
+.resetFilter {
+    line-height: 32px;
+}
+
+.filter_tool {
+    width: 190px;
+    display: inline-block;
+}
+
+.multipleSelect {
+    ul {
+        display: flex;
+        display: -moz-box;
+        /* 老版本语法: Firefox (buggy) */
+        display: -ms-flexbox;
+        /* 混合版本语法: IE 10 */
+        display: -webkit-flex;
+        /* 新版本语法: Chrome 21+ */
+        display: -webkit-box;
+        /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+        height: 0;
+        flex: auto;
+        >li {
+            float: none !important;
+            margin-right: 4px;
+            .ant-select-selection__choice__content {
+                overflow: inherit !important;
+            }
+        }
+    }
+    .ant-select-selection {
+        width: 360px;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .ant-select-selection--multiple .ant-select-selection__choice {
+        overflow: inherit;
+        float: none;
+    }
+    .ant-select-selection::-webkit-scrollbar {
+        /*滚动条整体样式*/
+        width: 5px;
+        /*高宽分别对应横竖滚动条的尺寸*/
+        height: 5px;
+    }
+    .ant-select-selection::-webkit-scrollbar-thumb {
+        /*滚动条里面小方块*/
+        border-radius: 5px;
+        background: rgba(45, 166, 126, 0.8);
+    }
+    .ant-select-selection::-webkit-scrollbar-track {
+        /*滚动条里面轨道*/
+        -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 0;
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+
+.data_list_container .ant-form-item-label {
+    line-height: 22px;
+    margin-bottom: 6px;
+}
+
+.input {
+    width: 60px !important;
+}
+.filter-form-box{
+  .ant-form-item{
+    margin-bottom: 6px;
+  }
+}
+//页面搜索两个字的样式
+.searchTitle{
+    border-bottom: none!important;font-size: 1.5em!important;
+}
+//搜索框select的宽
+.select-width{
+    min-width: 120px;
+}
+.input-width{
+    width: 80px;
+}

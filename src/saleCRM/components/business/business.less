@@ -1,0 +1,133 @@
+// @primary-color : #1DA57A;
+@import "../../../indexNbTheme.less"; // 用于覆盖上面定义的变量
+.font(@size, @color) {
+    font-family: "微软雅黑";
+    font-size: @size;
+    color: @color;
+}
+
+.business-table {
+    .ant-table-thead>tr>th {
+        text-align: center;
+    }
+    .ant-table-tbody>tr>td:nth-child(1) {
+        text-align: center;
+    }
+}
+
+.stopMark {
+    background: #666;
+    border-radius: 2px;
+    color: #fff;
+    width: 42px;
+    padding: 1px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.businessCount {
+    margin-top: -10px;
+    ul {
+        display: block;
+        width: 100%;
+        clear: both;
+        padding: 12px 4px;
+        margin-left: 12px;
+    }
+    li {
+        list-style: none;
+        float: left;
+        .font(13px, rgba(0, 0, 0, 0.85));
+    }
+}
+
+.businessSearch {
+    margin-left: 16px;
+}
+
+.businessEdit-box {
+    margin: 20px 0px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc
+}
+
+.businessStage {
+    .detail-stage {
+        margin-top: 20px;
+        div {
+            padding: 0px 20px 0px 8px;
+            border-left: 2px solid @primary-color;
+            float: left;
+        }
+        span {
+            .stopMark
+        }
+    }
+    .contract-style {
+        margin: 50px auto;
+    }
+    .stage-contant {
+        text-align: center;
+        Button {
+            margin-left: 28px;
+        }
+    }
+    .downLoad-style {
+        margin: 4px
+    }
+}
+
+.marginRight {
+    margin-right: 16px;
+}
+
+.clearUlStyle {
+    margin-bottom: 0;
+}
+
+.BusinessFollowUpComment {
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    margin: 16px 18px;
+}
+
+.BusinessFollowUpComment-content {
+    max-height: 51px;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.BusinessFollowUpComment-content-more {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 17px;
+    color: @primary-color;
+    line-height: 17px;
+    background-color: #fff;
+    text-indent: 5px;
+    cursor: pointer;
+}
+
+.BusinessFollowUpComment-packUp {
+    color: @primary-color;
+    line-height: 17px;
+    background-color: #fff;
+    text-indent: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 17px;
+}
+
+.pagination {
+    float: right;
+    margin-top: 10px;
+}
+
+.bus-upload {
+    .ant-upload-list {
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,118 @@
+.account-upload-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  title{
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+  }
+  .ant-steps {
+    width: 70%;
+    margin-left: 10%;
+  }
+  .steps-content {
+    width: 100%;
+    min-height: 300px;
+
+    .type-list {
+      position: absolute;
+      list-style: none;
+      width: 80%;
+      padding: 0;
+      left: 50%;
+      top: 24%;
+      transform: translate(-50%, 0);
+      overflow: hidden;
+      margin-left: -60px;
+
+      li {
+            width: 70px;
+            text-align: center;
+            float: left;
+            margin-left: 60px;
+            margin-bottom: 40px;
+            position: relative;
+        .img-content{
+            width:70px;
+            height: 70px;
+            text-align: center;
+            border-radius: 10px;
+            position: relative;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            overflow: hidden;
+            
+            img {
+                position: absolute;
+                top: -3px;
+                left: -3px;
+                width: 76px;
+                height: 76px;
+            }
+        }
+        
+        p{  
+            position: absolute;
+            line-height: 30px;
+            text-align: center;
+            white-space: nowrap;
+            left: 50%;
+            bottom: -40px;
+            transform: translateX(-50%);
+        }
+      }
+    }
+
+    .info-box {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      .tipTitle{
+          color: red;
+          letter-spacing: 1px;
+      }
+      .title {
+        font-weight: bold;
+        dd {
+          line-height: 40px;
+        }
+        button:nth-child(1) {
+          margin-right: 30px;
+        }
+        ol {
+          display: inline-block;
+          vertical-align: top;
+          margin-left: -20px;
+          li {
+            font-weight: normal;
+          }
+        }
+      }
+    }
+
+    .message-back {
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      h6 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+.color_highlight{
+  color: #f00;
+}

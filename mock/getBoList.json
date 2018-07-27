@@ -1,0 +1,148 @@
+{
+	"code": 200,
+	"msg": "ok",
+	"data": {
+		"list": [
+			{
+				"id": 1,
+				"name": "mock",
+				"company_name": "mock",
+				"estimate_sales_amount": 1,
+				"status": 1,
+				"record_at": "mock",
+				"record_type": "1",
+				"comment": "mock",
+				"sale_name": "mock",
+				"created_at": "mock",
+				"is_pause": "1",
+				"company_url": "mock",
+				"termination_reason": "mock",
+				"termination_at": "mock"
+			},
+			{
+				"id": 2,
+				"name": "mock",
+				"company_name": "mock",
+				"estimate_sales_amount": 1,
+				"status": 1,
+				"record_at": "mock",
+				"record_type": "1",
+				"comment": "mock",
+				"sale_name": "mock",
+				"created_at": "mock",
+				"is_pause": "1",
+				"company_url": "mock",
+				"termination_reason": "mock",
+				"termination_at": "mock"
+			},
+			{
+				"id": 3,
+				"name": "mock",
+				"company_name": "mock",
+				"estimate_sales_amount": 1,
+				"status": 1,
+				"status_name": "开始跟进",
+				"record_at": "mock",
+				"record_type": "1",
+				"comment": "mock",
+				"sale_name": "mock",
+				"created_at": "mock",
+				"is_pause": "1",
+				"company_url": "mock",
+				"termination_reason": "mock",
+				"termination_at": "mock"
+			},
+			{
+				"id": 117,
+				"name": "mock",
+				"company_name": "mock",
+				"estimate_sales_amount": 1,
+				"status": 5,
+				"status_name": "已终止",
+				"record_at": "mock",
+				"record_type": "1",
+				"comment": "mock",
+				"sale_name": "mock",
+				"created_at": "mock",
+				"is_pause": "2",
+				"company_url": "mock",
+				"termination_reason": "mock",
+				"termination_at": "mock"
+			}
+		],
+		"page": 1,
+		"limit": 1,
+		"count": 3,
+		"statistics": [
+			{
+				"name": "商机阶段",
+				"key": "businessOpportunityStage",
+				"total": "100",
+				"group": [
+					{
+						"name": "开始跟进",
+						"total": "2",
+						"paused": "1"
+					},
+					{
+						"name": "项目提案",
+						"total": "100",
+						"paused": "2"
+					},
+					{
+						"name": "商务谈判",
+						"total": "100",
+						"paused": "2"
+					},
+					{
+						"name": "确认合作",
+						"total": "100"
+					},
+					{
+						"name": "已终止",
+						"total": "100"
+					}
+				]
+			},
+			{
+				"name": "预计投放金额",
+				"key": "ExpectedAmountOfInvestment",
+				"total": 120,
+				"group": [
+					{
+						"name": "0-10w",
+						"total": 12
+					},
+					{
+						"name": "10-50w",
+						"total": 12
+					},
+					{
+						"name": "10-50w",
+						"total": 12
+					},
+					{
+						"name": "50-100w",
+						"total": 12
+					},
+					{
+						"name": "100-500w",
+						"total": 12
+					},
+					{
+						"name": "500-1000w",
+						"total": 1
+					},
+					{
+						"name": "1000w以上",
+						"total": 1
+					},
+					{
+						"name": "其他",
+						"total": 12
+					}
+				]
+			}
+		]
+	}
+}

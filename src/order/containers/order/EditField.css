@@ -1,0 +1,22 @@
+.EditField-delete{
+    margin-left: 10px;
+}
+.EditField-box{
+    position: relative;
+}
+.EditField-add{
+    position: absolute;right: 20px;top:10px;
+}
+.EditField-popout{
+    width: 100%;height: 100%;background-color: rgba(0,0,0,0.3);position: fixed;left: 0;top:0;
+}
+.EditField-popoutbox{
+    width: 600px;height: 500px;margin: 50px auto;background-color: rgb(226, 226, 226);border-radius: 5px;
+}
+.ant-form-item{
+    margin-bottom: 0;
+}
+.EditField-amend{
+    float: left;
+}
+

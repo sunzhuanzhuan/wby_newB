@@ -1,0 +1,160 @@
+@color-borderColor: #FAFAFA;
+.readOnlyModal{
+  .ant-modal-body {
+    max-height: 470px;overflow: auto;
+    }
+    .ant-modal-content{
+      min-width: 835px;
+    }
+}
+.execute-content-box {
+  tr {
+    td {
+      padding: 5px 0;word-break: break-all;
+    }
+    td:first-child {
+      width: 200px;
+      word-break: break-all;
+      text-align: right;
+      font-weight: bold;
+      padding-right: 10px;
+      vertical-align:top;
+    }
+  }
+  .special-td{
+    width:600px;
+    table{
+      max-width:600px!important;
+    }
+    tr{
+      td:first-child {
+        text-align: left;
+        font-weight: normal;
+        padding: 0;
+        vertical-align:middle;
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.quality-box {
+  font-size: 12px;
+  h1 {
+    font-size: 16px;
+    color: #1DA57A;
+  }
+  hr{
+    border:1px dashed @color-borderColor;
+    width:100%;
+    color:@color-borderColor;
+    size: 1px;
+    margin-bottom: 20px;
+  }
+
+}
+
+.quality-box-Table {
+  width: 100%;
+  tr {
+    td{
+      vertical-align: top;
+      padding: 10px 0;
+      word-break: break-all;
+      img{
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+      }
+    }
+    td:first-child {
+      font-weight: bold;
+      text-align: right;
+      padding-right: 5px;
+      width: 100px;
+    }
+  }
+}
+
+.quality-box-TableToTable {
+  border: 1px solid @color-borderColor;
+  width: 100%;
+  tr {
+    th {
+      box-sizing: border-box;
+      text-align: left;
+      background: @color-borderColor;
+      padding: 5px 5px;
+      border-bottom: 1px solid @color-borderColor;
+      color:rgba(0, 0, 0, 0.85);
+      font-weight: 500;
+      font-size: 13px;
+    }
+    td {
+      font-size: 13px;
+      color: rgba(0, 0, 0, 0.65);
+      padding-left: 5px;
+      border-left: 1px solid @color-borderColor;
+      border-bottom: 1px solid @color-borderColor;
+      a{
+        display: inline-block;
+      }
+    }
+    td:first-child {
+      box-sizing: border-box;
+      text-align: left;
+      border-left: 0;
+      vertical-align: middle;
+    }
+  }
+}
+.reservation_fail_reason_list li{
+  position: relative;
+  padding-left:8px
+}
+.reservation_fail_reason_list li::after{
+  content: '';
+  width:4px;
+  height: 4px;
+  position: absolute;
+  left:0;
+  top:7px;
+  background-color: #666;
+}
+.chargePrice > ul {
+  padding-left: 0;
+}
+.chargePrice > ul li{
+  list-style-type: none;
+}
+.data-execution-result {
+  > table > tbody > tr {
+    td {
+      word-break: break-all;
+    }
+    > td:first-child {
+      width: 110px;
+      word-break: break-all;
+      font-weight: bold;
+      padding-right: 10px;
+      vertical-align: center;
+      text-align: right;
+    }
+    > td:nth-child(2) {
+      width: 92%;
+    }
+  }
+}
+.unqualified-reason-head {
+  vertical-align: top;
+  line-height: 2.5em;
+}
+.unqualified-reason-item{
+  word-break: break-all;
+}
+.extra-data {
+  clear: left;
+  padding-top: 20px;
+}

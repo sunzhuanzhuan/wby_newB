@@ -1,0 +1,60 @@
+@import "../../indexNbTheme.less"; // 用于覆盖上面定义的变量
+.font(@size, @color) {
+    font-family: "微软雅黑";
+    font-size: @size;
+    color: @color;
+}
+
+.fieldset_css {
+    border: 1px solid @primary-color;
+    border-radius: 6px;
+    padding: 10px;
+    legend {
+        color: @primary-color;
+        background-color: #fff;
+        width: auto;
+        padding: 0 10px;
+        margin-bottom: 0;
+    }
+}
+
+.row-box-margin {
+    margin-top: 10px;
+}
+
+.businessdetail {
+    .detail-title {
+        height: 44px;
+        line-height: 44px;
+        padding-left: 20px;
+        color: @primary-color  !important;
+        background: #eee;
+        .font(14px, #666);
+        .title-bottom {
+            border-bottom: 2px solid @primary-color;
+            width: 60px;
+            height: 38px;
+            text-align: center;
+        }
+    }
+    .follow-box {
+        padding: 10px;
+        border: 1px #eee solid;
+        border-top: none;
+    }
+}
+
+.noModalButton {
+    .ant-modal-footer {
+        display: none;
+    }
+}
+.follow-displayBox{
+    height: 100%;display:flex;flex-direction: column;
+}
+.follow-box-addbox{
+    min-height: 232px;flex-shrink: 0;
+}
+.follow-box-Listbox{
+    flex-grow: 1;
+}

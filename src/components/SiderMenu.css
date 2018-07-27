@@ -1,0 +1,24 @@
+.ant-menu-inline-collapsed {
+  width: 100%;
+}
+
+.ant-menu-item, .ant-menu-submenu-title {
+  transition: none;
+}
+
+.ant-layout-content {
+  flex: 1;
+}
+
+/* .ant-table-thead>tr>th>span {
+  color: #fff;
+} */
+
+.ant-menu-vertical .ant-menu-item, .ant-menu-vertical-left .ant-menu-item, .ant-menu-vertical-right .ant-menu-item, .ant-menu-inline .ant-menu-item, .ant-menu-vertical .ant-menu-submenu-title, .ant-menu-vertical-left .ant-menu-submenu-title, .ant-menu-vertical-right .ant-menu-submenu-title, .ant-menu-inline .ant-menu-submenu-title {
+  margin-top: 0px;
+  margin-bottom: 0px
+}
+
+.ant-menu-vertical .ant-menu-item:not(:last-child), .ant-menu-vertical-left .ant-menu-item:not(:last-child), .ant-menu-vertical-right .ant-menu-item:not(:last-child), .ant-menu-inline .ant-menu-item:not(:last-child) {
+  margin-bottom: 0px;
+}

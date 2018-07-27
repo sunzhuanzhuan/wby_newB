@@ -1,0 +1,29 @@
+.noFooterModel .ant-modal-footer {
+    display: none;
+}
+
+.tree-admin-select {
+    ul {
+        display: flex;
+        display: -moz-box;
+        /* 老版本语法: Firefox (buggy) */
+        display: -ms-flexbox;
+        /* 混合版本语法: IE 10 */
+        display: -webkit-flex;
+        /* 新版本语法: Chrome 21+ */
+        display: -webkit-box;
+        /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+        height: 0;
+        flex: auto;
+        >li {
+            float: none !important;
+            margin-right: 4px;
+            .ant-select-selection__rendered {
+                overflow-x: auto !important;
+            }
+        }
+    }
+    .ant-select-selection__rendered {
+        overflow-x: auto !important;
+    }
+}
